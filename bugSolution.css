@@ -1,0 +1,22 @@
+/* bugSolution.css */
+
+#myElement {
+  width: calc(50% + 50px);
+  /*Corrected Solution: using only percentages or pixels*/
+  /*width: 50%;*/
+  /*width: 200px;*/
+  background-color: lightblue; /* for visual verification*/
+  height: 100px;
+}
+/*Or*/
+#myElement2 {
+  width: calc(100%/2 + 50px);
+  background-color: lightgreen; /* for visual verification*/
+  height: 100px;
+}
+/*Or*/
+#myElement3 {
+  width: calc(150px + 50px);
+  background-color: lightcoral; /* for visual verification*/
+  height: 100px;
+}
